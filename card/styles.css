@@ -1,0 +1,53 @@
+/* h4 font size is 1.5 rem */
+h4{
+    margin:0px;
+    font-size: 1.5rem;
+}
+img{
+    display: block;
+}
+.card{
+    border:1px solid rgba(0,0,0,0.125);
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius:0.25rem;
+    line-height:1.25;
+    max-width:360px;
+    padding:0 22px;
+
+}
+.card-body{
+    
+    
+    flex-shrink: 1;
+    padding:1.25rem;
+    line-height: 1;
+    
+    
+}
+.card-imgwrapper{
+    margin-left:-22px;
+    margin-right:-22px;
+    display: block;
+
+   
+}
+.card-shadow{
+    box-shadow: 2px 2px 2px rgb(87, 84, 84);
+}
+
+.content-overlay{
+    position: absolute;
+    top:10px;
+    color:white;
+}
+
+.card-content{
+    
+    background-color: white;
+    position: relative;
+    padding: 30px 30px 25px;
+    top:-40px
+} 
