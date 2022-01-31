@@ -1,0 +1,25 @@
+:root{
+    --badge-color:#fff;
+    --badge-bgcolor:#777;
+}
+
+.badge{
+    display: inline-block;
+    border-radius: 10px;
+    min-width:10px;
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+    background-color: tomato;
+    line-height: 1;
+    padding:3px 7px;
+    font-size: 12px;
+    font-weight:700;
+    color:var(--badge-color);
+    background-color:var(--badge-bgcolor);
+}
+
+/* Following css are added for experimental purpose */
+a{
+    color:black;
+}
