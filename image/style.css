@@ -1,17 +1,26 @@
 .responsive{
     width:100%;
-    height:auto;
+    height:100%;
+    object-fit: cover;
 }
-.responsive-nl{
-    max-width:100%;
-    height:auto;
-}
+
 /* To get a perfect circle image wrap the img in a div of same height and width and give the circle class */
 .circle{
     border-radius:50%;
     overflow: hidden;
-    height:200px;
-    width:200px;
+    height:100px;
+    width:100px;
+    object-fit:cover;
+}
+
+
+
+
+.square {
+    height: 140px;
+    width: 140px;
+   
+    object-fit: cover;
 }
 
 /* Tp get a rounded Image */
