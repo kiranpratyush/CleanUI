@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../GlobalStyles/general.css" />
+    <!-- This is reset.css -->
+    <link rel="stylesheet" href="../GlobalStyles/allstyle.css" />
+    <!-- This style is using the different component styles in other web pages -->
+    <link rel="stylesheet" href="../GlobalStyles/sitestyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Text</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="../index.html">CUI</a>
+      <span>
+        <span><a href="#">Docs</a></span>
+        <span><a href="#">Examples</a></span>
+      </span>
+    </header>
+
+    <main>
+      <nav>
+        <a href="../GetStarted/index.html">Get Started</a>
+        <hr />
+        <h4 style="line-height: 2">Components</h4>
+        <!-- The above inline style is due to the specificity issue raised due to the text component and site style -->
+        <hr />
+        <ul>
+          <li><a href="../Avatar/index.html">Avatar</a></li>
+          <li><a href="../Alert/index.html">Alert</a></li>
+          <li><a href="../Badge/index.html">Badge</a></li>
+          <li><a href="../Button/index.html">Button</a></li>
+          <li><a href="../card/index.html">Card</a></li>
+          <li><a href="../image/index.html">Image</a></li>
+          <li><a href="../Input/index.html">Input</a></li>
+          <li><a href="../Grid/index.html">Grid</a></li>
+          <li><a href="../List/index.html">List</a></li>
+          <li><a href="../Modal/index.html">Modal</a></li>
+          <li><a href="../Navigation/index.html">Navigation</a></li>
+          <li><a href="../Rating/index.html">Rating</a></li>
+          <li><a href="../Text/index.html">Text</a></li>
+          <li><a href="../Toast/index.html">Toast</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3>Text</h3>
+        <p>
+          Documentation and examples for common text utilities to contol
+          alignment font size and Weight
+        </p>
+        <hr />
+        <h4>Heading</h4>
+        <p>
+          All html Heading
+          <code>&lt;h1&gt;</code>
+          through
+          <code>&lt;h6&gt;</code>,are available
+        </p>
+        <div class="container flex-container column-align">
+          <h1>h1.Heading</h1>
+          <h2>h2.Heading</h2>
+          <h3>h3.Heading</h3>
+          <h4>h4.Heading</h4>
+          <h5>h5.Heading</h5>
+          <h6>h6.Heading</h6>
+        </div>
+        <div
+          class="container iframe"
+          style="
+            height: 300px;
+            background-color: transparent;
+            padding-left: 0px;
+            padding-right: 0px; ;
+          "
+        >
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=4px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14.5px&lh=154%25&si=false&es=2x&wm=false&code=%253Ch1%253Eh1.Heading%253C%252Fh1%253E%250A%253Ch2%253Eh2.Heading%253C%252Fh2%253E%250A%253Ch3%253Eh3.Heading%253C%252Fh3%253E%250A%253Ch4%253Eh4.Heading%253C%252Fh4%253E%250A%253Ch5%253Eh5.Heading%253C%252Fh5%253E%250A%253Ch6%253Eh6.Heading%253C%252Fh6%253E%250A"
+            style="
+              width: 680px;
+              height: 213px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <h4>Small text</h4>
+        <p>small font size is available bu using small class</p>
+        <div class="container flex-container">
+          <p class="small">I am small text</p>
+        </div>
+        <div
+          class="container iframe"
+          style="
+            height: 300px;
+            background-color: transparent;
+            padding-left: 0px;
+            padding-right: 0px; ;
+          "
+        >
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=4px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14.5px&lh=154%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522small%2522%253EI%2520am%2520small%2520text%253C%252Fp%253E"
+            style="
+              width: 680px;
+              height: 96px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <h4>Center Text</h4>
+        <p>Centered Text can be achieved by using center class</p>
+        <div class="container">
+          <p class="center" style="width: 100%">I am centerd Text</p>
+        </div>
+
+        <div
+          class="container iframe"
+          style="
+            height: 300px;
+            background-color: transparent;
+            padding-left: 0px;
+            padding-right: 0px; ;
+          "
+        >
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=4px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14.5px&lh=154%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522center%2522%253EI%2520am%2520centerd%2520Text%253C%252Fp%253E"
+            style="
+              width: 680px;
+              height: 96px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+        <h4>Gray Text</h4>
+        <p>Gray Text can be achieved by using gray class</p>
+        <div class="container">
+          <h1 class="gray" style="width: 100%">I am gray Text</h1>
+        </div>
+        <div
+          class="container iframe"
+          style="
+            height: 300px;
+            background-color: transparent;
+            padding-left: 0px;
+            padding-right: 0px; ;
+          "
+        >
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=0px&dsblur=4px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14.5px&lh=154%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522gray%2522%2520style%253D%2522width%253A%2520100%2525%2522%253EI%2520am%2520gray%2520Text%253C%252Fh1%253E"
+            style="
+              width: 680px;
+              height: 79px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <hr />
+      </section>
+    </main>
+    <footer>
+      <a href="../Toast/index.html">NEXT <i class="bi bi-arrow-right"></i></a
+      ><a href="../Rating/index.html"> <i class="bi bi-arrow-left"></i>PREV</a>
+    </footer>
+  </body>
+</html>
