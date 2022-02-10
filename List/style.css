@@ -7,3 +7,10 @@
   list-style-type: none;
   padding-left: 10px;
 }
+
+.iframe-style {
+  height: 350px;
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+}
